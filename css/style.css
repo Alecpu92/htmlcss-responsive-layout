@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.container-nav{
+    background-color: lightseagreen;
+    height: 100px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin-left: 20px;
+}
+i{
+    margin-right: 20px;
+}
+ul{
+    list-style-type: none;
+    color: white;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+}
+@media screen and (min-width 480px) {
+    #only-desk{
+        display: none;
+    }
+}
