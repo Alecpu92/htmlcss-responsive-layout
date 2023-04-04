@@ -29,8 +29,25 @@ ul{
     gap: 10px;
     margin-right: 100px;
 }
-@media screen and (min-width 480px) {
+#container-app{
+    
+}
+
+.card-app{
+    height: 200px;
+    background-color: lightskyblue;
+    width: 100%;
+    margin: 0 auto;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 780px) {
     #only-desk{
+        display: block;
+    }
+    #burger{
         display: none;
     }
 }
+
+
