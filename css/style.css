@@ -29,18 +29,49 @@ ul{
     gap: 10px;
     margin-right: 100px;
 }
-#container-app{
+.container-app{
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    border: solid black 1px;
+    margin-top: 20px;
+    
     
 }
-
 .card-app{
-    height: 200px;
-    background-color: lightskyblue;
-    width: 100%;
-    margin: 0 auto;
-    border: solid black 1px;
-    margin-top: 10px;
+    border: solid green 1px;
+    height: 500px;
+    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    background-color: lightblue;
+    border-radius: 10%
 }
+h2{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: rgb(72, 71, 71);
+    text-align: center;
+    
+}
+#phone{
+    width: 50%;
+    height: 300px;
+    margin-left: 100px;
+    display: block;
+}
+i{
+    font-size: 200px;
+    color: blue;
+    margin-bottom: 50px;
+}
+
+
+
 @media screen and (min-width: 780px) {
     #only-desk{
         display: block;
